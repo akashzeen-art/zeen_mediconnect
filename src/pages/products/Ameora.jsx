@@ -38,12 +38,12 @@ export default function Ameora() {
             <p className="text-xl text-rose-800/80 mb-8 max-w-lg leading-relaxed">
               A premium feminine wellness formulation designed to support firmness, comfort, elasticity, and renewed confidence.
             </p>
-            <Link to="/contact">
+            <a href="https://pu.playtonight.fun/com/checkout/?id=1029&clickid=clickid" target="_blank" rel="noopener noreferrer">
               <motion.button whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}
                 className="inline-flex items-center gap-2 px-8 py-4 bg-rose-600 text-white rounded-full font-bold shadow-xl hover:bg-rose-700 transition-all">
                 Experience Améora <ArrowRight size={18} />
               </motion.button>
-            </Link>
+            </a>
           </motion.div>
           <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.8, delay: 0.2 }}
             className="relative h-[420px] rounded-[40px] overflow-hidden shadow-2xl">

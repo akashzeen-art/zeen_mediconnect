@@ -47,7 +47,12 @@ export default function ContactPreview() {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button to="/contact" variant="primary">Buy Now</Button>
+                <a href="https://pu.playtonight.fun/com/checkout/?id=1029&clickid=clickid" target="_blank" rel="noopener noreferrer">
+                  <motion.button whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}
+                    className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#0A2540] text-white rounded-full font-bold hover:bg-[#1E3A8A] transition-colors shadow-lg">
+                    Buy Now
+                  </motion.button>
+                </a>
                 <Button to="/contact" variant="outline">Contact Us</Button>
               </div>
             </motion.div>

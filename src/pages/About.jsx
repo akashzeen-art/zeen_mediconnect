@@ -21,7 +21,7 @@ export default function About() {
     <div className="pt-20">
 
       {/* Hero */}
-      <section className="bg-gradient-to-br from-[#0A2540] via-[#0d3060] to-[#0f766e] text-white py-24 relative overflow-hidden">
+      <section className="bg-gradient-to-br from-[#1e3a5f] via-[#2563a8] to-[#0f766e] text-white py-24 relative overflow-hidden">
         <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)', backgroundSize: '60px 60px' }} />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
           <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }}

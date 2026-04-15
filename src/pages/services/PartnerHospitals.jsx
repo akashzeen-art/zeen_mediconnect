@@ -42,7 +42,7 @@ export default function PartnerHospitals() {
     <div className="pt-20 bg-[#FAFAFA] min-h-screen">
 
       {/* Header */}
-      <section className="bg-gradient-to-br from-[#0A2540] to-blue-900 text-white py-24 relative overflow-hidden">
+      <section className="bg-gradient-to-br from-[#1e3a5f] to-[#2563a8] text-white py-24 relative overflow-hidden">
         <div className="absolute right-0 top-0 w-[500px] h-[500px] bg-blue-500/20 rounded-full blur-3xl" />
         <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)', backgroundSize: '60px 60px' }} />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">

@@ -21,14 +21,14 @@ export default function ProductOverview() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
 
           {/* Feature banner */}
-          <motion.div {...fadeUp()} className="bg-[#1e3a5f] rounded-3xl p-8 md:p-12 mb-16 overflow-hidden relative">
+          <motion.div {...fadeUp()} className="bg-[#2a4a7a] rounded-3xl p-8 md:p-12 mb-16 overflow-hidden relative">
             <div className="absolute right-0 top-0 w-64 h-64 bg-blue-500/20 rounded-full blur-3xl" />
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center relative z-10">
               <div>
                 <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-900/50 border border-blue-400/30 text-blue-200 text-xs font-bold uppercase tracking-widest mb-4">
                   Men's Wellness
                 </div>
-                <h2 className="text-3xl md:text-4xl font-heading font-extrabold text-white mb-4 leading-tight">
+                <h2 className="text-3xl md:text-4xl font-heading font-extrabold text-white drop-shadow-lg mb-4 leading-tight">
                   2 Capsules at a Time for Maximum Performance
                 </h2>
                 <p className="text-blue-200 leading-relaxed mb-6">

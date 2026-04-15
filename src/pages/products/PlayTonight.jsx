@@ -39,12 +39,12 @@ export default function PlayTonight() {
               A premium Ayurvedic formulation designed to support stamina, vitality, endurance, and confidence for men's wellness.
             </p>
             <div className="flex flex-wrap gap-4">
-              <Link to="/contact">
+              <a href="https://pu.playtonight.fun/com/checkout/?id=1029&clickid=clickid" target="_blank" rel="noopener noreferrer">
                 <motion.button whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-[#0A2540] rounded-full font-bold shadow-xl hover:shadow-white/20 transition-all">
                   Buy Now <ArrowRight size={18} />
                 </motion.button>
-              </Link>
+              </a>
             </div>
           </motion.div>
           <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.8, delay: 0.2 }}
