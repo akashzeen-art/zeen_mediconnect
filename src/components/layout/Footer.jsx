@@ -39,6 +39,7 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               <li><Link to="/privacy-policy" className="text-white/80 hover:text-teal-300 transition-colors">Privacy Policy</Link></li>
               <li><Link to="/terms" className="text-white/80 hover:text-teal-300 transition-colors">Terms & Conditions</Link></li>
+              <li><Link to="/refund-policy" className="text-white/80 hover:text-teal-300 transition-colors">Refund & Cancellation Policy</Link></li>
               <li><Link to="/disclaimer" className="text-white/80 hover:text-teal-300 transition-colors">Disclaimer</Link></li>
             </ul>
             <div className="mt-8">

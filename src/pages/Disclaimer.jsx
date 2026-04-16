@@ -26,8 +26,8 @@ export default function Disclaimer() {
 
           <p className="text-gray-600 leading-relaxed text-sm">
             The information below applies to{' '}
-            <a href="https://playtonight.fun/" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:underline font-medium">
-              https://playtonight.fun/
+            <a href="https://zeenmediconnect.com/" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:underline font-medium">
+              https://zeenmediconnect.com/
             </a>{' '}
             and the Company — Zeen Mediconnect OPC Pvt. Ltd. The information provided on this Website, operated by Zeen Mediconnect OPC Pvt. Ltd. ("Company", "we", "our", or "us"), is for general informational and educational purposes only. By using this Website, you acknowledge and agree to the following disclaimers:
           </p>

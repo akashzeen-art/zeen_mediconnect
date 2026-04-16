@@ -101,8 +101,8 @@ export default function TermsConditions() {
 
           <p className="text-gray-600 leading-relaxed text-sm">
             Welcome to{' '}
-            <a href="https://playtonight.fun/" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:underline font-medium">
-              https://playtonight.fun/
+            <a href="https://zeenmediconnect.com/" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:underline font-medium">
+              https://zeenmediconnect.com/
             </a>
             , a website created and managed by Zeen Mediconnect OPC Pvt. Ltd. ("Company", "we", "us", or "our"). By accessing or using this website, you agree to the following Terms & Conditions.
           </p>

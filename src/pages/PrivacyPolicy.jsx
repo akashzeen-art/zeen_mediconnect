@@ -56,7 +56,7 @@ const sections = [
       'Request deletion of your personal data.',
       'Withdraw consent for marketing communications.',
       'Restrict or object to certain data processing activities.',
-      'To exercise these rights, contact us at enquiry@zeenmediconnect.com.'
+      'To exercise these rights, contact us at bd@zeenmediconnect.com.'
     ]
   },
   {
@@ -109,8 +109,8 @@ export default function PrivacyPolicy() {
 
           <p className="text-gray-600 leading-relaxed text-sm">
             This Privacy Policy describes how Zeen Mediconnect OPC Pvt. Ltd. ("Company", "we", "our", or "us") collects, uses, stores, and protects your personal information when you use{' '}
-            <a href="https://playtonight.fun/" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:underline font-medium">
-              https://playtonight.fun/
+            <a href="https://zeenmediconnect.com/" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:underline font-medium">
+              https://zeenmediconnect.com/
             </a>{' '}
             (the "Website"). By accessing or using our Website, you agree to the terms of this Privacy Policy.
           </p>

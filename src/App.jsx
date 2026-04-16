@@ -10,6 +10,7 @@ import About from './pages/About';
 import Disclaimer from './pages/Disclaimer';
 import TermsConditions from './pages/TermsConditions';
 import PrivacyPolicy from './pages/PrivacyPolicy';
+import RefundPolicy from './pages/RefundPolicy';
 import Contact from './pages/Contact';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <Route path="disclaimer" element={<Disclaimer />} />
           <Route path="terms" element={<TermsConditions />} />
           <Route path="privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="refund-policy" element={<RefundPolicy />} />
         </Route>
       </Routes>
     </BrowserRouter>
