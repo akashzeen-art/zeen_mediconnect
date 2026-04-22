@@ -27,7 +27,7 @@ export default function PlayTonight() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <motion.div initial={{ opacity: 0, x: -30 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.8 }}>
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/20 text-teal-200 text-sm font-medium mb-6">
-              Premium Ayurvedic Formulation
+              Premium Herbal Formulation
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-extrabold mb-6 leading-tight">
               Play Tonight<br />
@@ -36,10 +36,10 @@ export default function PlayTonight() {
               </span>
             </h1>
             <p className="text-xl text-blue-100 mb-8 max-w-lg leading-relaxed">
-              A premium Ayurvedic formulation designed to support stamina, vitality, endurance, and confidence for men's wellness.
+              A premium herbal formulation designed to support stamina, vitality, endurance, and confidence for men's wellness.
             </p>
             <div className="flex flex-wrap gap-4">
-              <a href="https://pu.playtonight.fun/com/checkout/?id=1029&clickid=clickid" target="_blank" rel="noopener noreferrer">
+              <a href="https://playtonight.fun/" target="_blank" rel="noopener noreferrer">
                 <motion.button whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-[#0A2540] rounded-full font-bold shadow-xl hover:shadow-white/20 transition-all">
                   Buy Now <ArrowRight size={18} />
@@ -105,7 +105,7 @@ export default function PlayTonight() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-[#0A2540] mb-4">Empower Your Wellness Experience</h2>
-            <p className="text-gray-600 text-lg">Formulated with potent Ayurvedic ingredients, Play Tonight focuses on natural support for male vitality.</p>
+            <p className="text-gray-600 text-lg">Formulated with potent herbal ingredients, Play Tonight focuses on natural support for male vitality.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {benefits.map((b, i) => {
@@ -135,7 +135,7 @@ export default function PlayTonight() {
               <h2 className="text-3xl md:text-4xl font-heading font-bold text-[#0A2540] mb-6">How It Works</h2>
               <div className="space-y-6">
                 {[
-                  { step: '01', title: 'Natural Formulation', desc: 'Each capsule is crafted with time-tested Ayurvedic herbs known for their wellness properties.' },
+                  { step: '01', title: 'Natural Formulation', desc: 'Each capsule is crafted with time-tested herbal extracts known for their wellness properties.' },
                   { step: '02', title: 'Daily Support', desc: 'Consistent use supports gradual, natural improvement in stamina and vitality.' },
                   { step: '03', title: 'Holistic Wellness', desc: 'Addresses both physical energy and mental confidence for a complete wellness experience.' }
                 ].map((item, i) => (
@@ -153,7 +153,7 @@ export default function PlayTonight() {
             </motion.div>
             <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}
               className="bg-gradient-to-br from-[#1a4a7a] to-[#2563a8] rounded-3xl p-10 text-white">
-              <h3 className="text-2xl font-bold mb-8">Pure Ayurvedic Ingredients</h3>
+              <h3 className="text-2xl font-bold mb-8">Pure Herbal Ingredients</h3>
               <div className="space-y-4">
                 {ingredients.map((ing, i) => (
                   <div key={i} className="flex gap-4 bg-white/10 rounded-2xl p-4 border border-white/10">
@@ -192,10 +192,10 @@ export default function PlayTonight() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-[#0A2540] text-center px-4">
+      <section className="py-16 bg-gradient-to-r from-[#1e3a5f] to-[#0f766e] text-center px-4">
         <h2 className="text-3xl font-heading font-bold text-white mb-4">Ready to Experience Play Tonight?</h2>
-        <p className="text-blue-200 mb-8 max-w-xl mx-auto">Contact us to place your order or learn more about our premium Ayurvedic wellness products.</p>
-        <a href="https://pu.playtonight.fun/com/checkout/?id=1029&clickid=clickid" target="_blank" rel="noopener noreferrer">
+        <p className="text-white/90 mb-8 max-w-xl mx-auto">Contact us to place your order or learn more about our premium herbal wellness products.</p>
+        <a href="https://playtonight.fun/" target="_blank" rel="noopener noreferrer">
           <motion.button whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}
             className="inline-flex items-center gap-2 px-8 py-4 bg-white text-[#0A2540] rounded-full font-bold shadow-xl hover:shadow-white/20 transition-all">
             Buy Now <ArrowRight size={18} />
@@ -206,7 +206,7 @@ export default function PlayTonight() {
       {/* Disclaimer */}
       <div className="py-8 text-center max-w-4xl mx-auto px-4">
         <p className="text-xs text-gray-400 leading-relaxed">
-          Disclaimer: This product is an Ayurvedic formulation. Results may vary from person to person. Please consult your physician before use, especially if you have pre-existing medical conditions. This product is not intended to diagnose, treat, cure, or prevent any disease.
+          Disclaimer: This product is a herbal formulation. Results may vary from person to person. Please consult your physician before use, especially if you have pre-existing medical conditions. This product is not intended to diagnose, treat, cure, or prevent any disease.
         </p>
       </div>
     </div>

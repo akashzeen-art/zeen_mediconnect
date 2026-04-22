@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import BackButton from '../components/ui/BackButton';
 
 export default function Disclaimer() {
   return (
@@ -8,6 +9,9 @@ export default function Disclaimer() {
       <section className="bg-gradient-to-br from-[#1e3a5f] to-[#0f766e] py-20 relative overflow-hidden">
         <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)', backgroundSize: '60px 60px' }} />
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+          <div className="flex justify-start mb-6">
+            <BackButton />
+          </div>
           <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}
             className="text-4xl md:text-5xl font-heading font-extrabold text-white mb-4">
             Disclaimer
@@ -39,14 +43,14 @@ export default function Disclaimer() {
               num: '01', title: 'No Medical Advice',
               points: [
                 'The content on this Website, including articles, product information, and resources, is not a substitute for professional medical advice, diagnosis, or treatment.',
-                'Always consult a qualified healthcare professional before starting any herbal, Ayurvedic, or dietary supplement regimen.',
+                'Always consult a qualified healthcare professional before starting any herbal, Herbal, or dietary supplement regimen.',
                 'Never disregard or delay seeking medical advice because of something you read on this Website.'
               ]
             },
             {
               num: '02', title: 'Product Disclaimer',
               points: [
-                'Our products are based on traditional Ayurvedic and herbal practices. Results may vary from person to person.',
+                'Our products are based on traditional Herbal and herbal practices. Results may vary from person to person.',
                 'The Company does not claim to diagnose, treat, cure, or prevent any disease.',
                 'Statements regarding our products have not been evaluated by medical authorities unless explicitly stated.'
               ]

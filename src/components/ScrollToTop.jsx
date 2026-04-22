@@ -10,5 +10,10 @@ export default function ScrollToTop() {
     window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
   }, [pathname]);
 
+  // Also handle browser back/forward
+  useEffect(() => {
+    window.history.scrollRestoration = 'manual';
+  }, []);
+
   return null;
 }

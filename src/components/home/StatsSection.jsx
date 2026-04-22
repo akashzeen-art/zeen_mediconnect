@@ -42,7 +42,7 @@ export default function StatsSection() {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-r from-[#0A2540] via-[#0d3060] to-[#0f766e] relative overflow-hidden">
+    <section className="py-20 relative overflow-hidden" style={{ backgroundColor: '#FDE8F0' }}>
       <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)', backgroundSize: '32px 32px' }} />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -50,11 +50,11 @@ export default function StatsSection() {
           {stats.map((stat, idx) => (
             <motion.div key={idx} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }} transition={{ duration: 0.5, delay: idx * 0.1 }}
-              className="text-center px-4 py-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10">
-              <div className="text-4xl md:text-5xl font-heading font-extrabold text-white mb-3 tracking-tight">
+              className="text-center px-4 py-6 rounded-2xl bg-white/80 backdrop-blur-sm border border-rose-100 shadow-md">
+              <div className="text-4xl md:text-5xl font-heading font-extrabold text-rose-700 mb-3 tracking-tight">
                 <Counter target={stat.display} suffix={stat.suffix} />
               </div>
-              <div className="text-sm md:text-base text-blue-200 font-medium leading-snug">{stat.label}</div>
+              <div className="text-sm md:text-base text-rose-900/70 font-medium leading-snug">{stat.label}</div>
             </motion.div>
           ))}
         </div>

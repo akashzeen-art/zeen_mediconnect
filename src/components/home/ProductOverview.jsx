@@ -11,12 +11,10 @@ const fadeUp = (delay = 0) => ({
 
 export default function ProductOverview() {
   return (
-    <div className="bg-[#FAFAFA]">
+    <div className="bg-transparent">
 
       {/* ── PLAY TONIGHT ── */}
-      <section className="py-24 relative overflow-hidden">
-        {/* Background accent */}
-        <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-blue-50 to-transparent pointer-events-none" />
+      <section className="py-24">
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
 
@@ -36,9 +34,7 @@ export default function ProductOverview() {
                 </p>
                 {/* Price + Offer */}
                 <div className="flex items-center gap-3 mb-3">
-                  <span className="text-3xl font-extrabold text-white">₹699</span>
-                  <span className="text-lg text-blue-300 line-through">₹999</span>
-                  <span className="px-2 py-1 bg-green-400 text-green-900 text-xs font-extrabold rounded-full">30% OFF</span>
+                  <span className="text-3xl font-extrabold text-white">₹999</span>
                 </div>
                 <motion.div animate={{ opacity: [1, 0.5, 1] }} transition={{ duration: 1.5, repeat: Infinity }}
                   className="inline-flex items-center gap-2 px-4 py-2 bg-yellow-400 text-yellow-900 rounded-full text-xs font-extrabold uppercase tracking-wider">
@@ -75,7 +71,6 @@ export default function ProductOverview() {
             {/* Center product image */}
             <motion.div {...fadeUp(0.2)} className="flex justify-center">
               <div className="relative">
-                <div className="absolute inset-0 bg-gradient-to-br from-blue-100 to-teal-100 rounded-full blur-3xl opacity-60 scale-110" />
                 <img src="/Capsules.png" alt="Play Tonight" className="relative w-64 h-64 object-contain drop-shadow-2xl" />
               </div>
             </motion.div>
@@ -140,8 +135,7 @@ export default function ProductOverview() {
       </section>
 
       {/* ── AMEORA ── */}
-      <section className="py-24 bg-gradient-to-b from-[#FDF2F8] to-white relative overflow-hidden">
-        <div className="absolute top-0 left-0 w-1/2 h-full bg-gradient-to-r from-rose-50 to-transparent pointer-events-none" />
+      <section className="py-24">
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
 
@@ -161,9 +155,7 @@ export default function ProductOverview() {
                 </p>
                 {/* Price + Offer */}
                 <div className="flex items-center gap-3 mb-3">
-                  <span className="text-3xl font-extrabold text-white">₹799</span>
-                  <span className="text-lg text-rose-300 line-through">₹1,142</span>
-                  <span className="px-2 py-1 bg-green-400 text-green-900 text-xs font-extrabold rounded-full">30% OFF</span>
+                  <span className="text-3xl font-extrabold text-white">₹1,099</span>
                 </div>
                 <motion.div animate={{ opacity: [1, 0.5, 1] }} transition={{ duration: 1.5, repeat: Infinity }}
                   className="inline-flex items-center gap-2 px-4 py-2 bg-yellow-400 text-yellow-900 rounded-full text-xs font-extrabold uppercase tracking-wider">
@@ -198,7 +190,6 @@ export default function ProductOverview() {
 
             <motion.div {...fadeUp(0.2)} className="flex justify-center">
               <div className="relative">
-                <div className="absolute inset-0 bg-gradient-to-br from-rose-200 to-pink-200 rounded-full blur-3xl opacity-60 scale-110" />
                 <img src="/WomenCapsules.png" alt="Ameora" className="relative w-64 h-64 object-contain drop-shadow-2xl" />
               </div>
             </motion.div>

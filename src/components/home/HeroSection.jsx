@@ -30,7 +30,7 @@ export default function HeroSection() {
             </motion.div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-extrabold leading-tight mb-6">
-              <span className="text-white drop-shadow-lg">Premium Ayurvedic</span>{' '}
+              <span className="text-white drop-shadow-lg">Premium Herbal</span>{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-300 to-pink-200">
                 Wellness
               </span>{' '}
@@ -44,7 +44,7 @@ export default function HeroSection() {
               Confidence. Vitality. World-Class Care.
             </p>
             <p className="text-base text-white/60 mb-10 max-w-xl leading-relaxed">
-              Zeen Mediconnect brings you premium Ayurvedic wellness products — Play Tonight & Améora — alongside trusted global medical tourism services and world-class hospital connections.
+              Zeen Mediconnect brings you premium Herbal wellness products — Play Tonight & Améora — alongside trusted global medical tourism services and world-class hospital connections.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
@@ -65,7 +65,7 @@ export default function HeroSection() {
             {/* Trust badges */}
             <div className="flex flex-wrap gap-4">
               {[
-                { icon: Leaf, text: '100% Ayurvedic', color: 'text-teal-300' },
+                { icon: Leaf, text: '100% Herbal', color: 'text-teal-300' },
                 { icon: ShieldCheck, text: 'GMP Certified', color: 'text-rose-300' },
                 { icon: CheckCircle2, text: 'FDA Approved', color: 'text-purple-300' },
                 { icon: CheckCircle2, text: 'Accredited Hospitals', color: 'text-cyan-300' }
@@ -123,7 +123,7 @@ export default function HeroSection() {
                   <ShieldCheck size={18} />
                 </div>
                 <div>
-                  <div className="font-bold text-gray-800">100% Ayurvedic & Natural</div>
+                  <div className="font-bold text-gray-800">100% Herbal & Natural</div>
                   <div className="text-xs text-gray-400">ISO · GMP · FDA Approved</div>
                 </div>
               </motion.div>

@@ -126,13 +126,13 @@ export default function Treatment() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-[#0A2540] text-center px-4">
+      <section className="py-20 bg-gradient-to-br from-[#1e3a5f] to-[#2563a8] text-center px-4">
         <h2 className="text-3xl font-bold font-heading text-white mb-4">Need a Specialized Medical Opinion?</h2>
-        <p className="text-blue-200 mb-8 max-w-2xl mx-auto">Let our team coordinate with global experts to analyze your condition and provide the best treatment plan tailored to your needs.</p>
+        <p className="text-white mb-8 max-w-2xl mx-auto">Let our team coordinate with global experts to analyze your condition and provide the best treatment plan tailored to your needs.</p>
         <Link to="/contact">
           <motion.button whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}
             className="inline-flex items-center gap-2 px-8 py-4 bg-white text-[#0A2540] rounded-full font-bold shadow-xl hover:shadow-white/20 transition-all">
-            Order Now <ArrowRight size={18} />
+            Contact Us <ArrowRight size={18} />
           </motion.button>
         </Link>
       </section>

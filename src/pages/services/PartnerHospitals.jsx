@@ -133,9 +133,9 @@ export default function PartnerHospitals() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-[#0A2540] text-center px-4">
+      <section className="py-20 bg-gradient-to-br from-[#1e3a5f] to-[#2563a8] text-center px-4">
         <h2 className="text-3xl font-bold font-heading text-white mb-4">Don't See Your Preferred Hospital?</h2>
-        <p className="text-blue-200 mb-8 max-w-2xl mx-auto">Our network extends beyond this list. Contact us and we'll connect you with the right specialist and facility for your specific medical needs.</p>
+        <p className="text-white mb-8 max-w-2xl mx-auto">Our network extends beyond this list. Contact us and we'll connect you with the right specialist and facility for your specific medical needs.</p>
         <Link to="/contact">
           <motion.button whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}
             className="inline-flex items-center gap-2 px-8 py-4 bg-white text-[#0A2540] rounded-full font-bold shadow-xl hover:shadow-white/20 transition-all">

@@ -38,7 +38,7 @@ export default function Ameora() {
             <p className="text-xl text-rose-800/80 mb-8 max-w-lg leading-relaxed">
               A premium feminine wellness formulation designed to support firmness, comfort, elasticity, and renewed confidence.
             </p>
-            <a href="https://pu.playtonight.fun/com/checkout/?id=1029&clickid=clickid" target="_blank" rel="noopener noreferrer">
+            <a href="https://ameora.fun/" target="_blank" rel="noopener noreferrer">
               <motion.button whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}
                 className="inline-flex items-center gap-2 px-8 py-4 bg-rose-600 text-white rounded-full font-bold shadow-xl hover:bg-rose-700 transition-all">
                 Experience Améora <ArrowRight size={18} />
@@ -185,7 +185,7 @@ export default function Ameora() {
       <section className="py-16 bg-gradient-to-r from-rose-600 to-pink-600 text-center px-4">
         <h2 className="text-3xl font-heading font-bold text-white mb-4">Ready to Experience Améora?</h2>
         <p className="text-rose-100 mb-8 max-w-xl mx-auto">Contact us to place your order or learn more about our premium feminine wellness formulation.</p>
-        <a href="https://pu.playtonight.fun/com/checkout/?id=1029&clickid=clickid" target="_blank" rel="noopener noreferrer">
+        <a href="https://ameora.fun/" target="_blank" rel="noopener noreferrer">
           <motion.button whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}
             className="inline-flex items-center gap-2 px-8 py-4 bg-white text-rose-600 rounded-full font-bold shadow-xl hover:shadow-white/20 transition-all">
             Buy Now <ArrowRight size={18} />

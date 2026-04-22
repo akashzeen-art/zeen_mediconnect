@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import BackButton from '../components/ui/BackButton';
 
 const sections = [
   {
@@ -91,6 +92,7 @@ export default function PrivacyPolicy() {
       <section className="bg-gradient-to-br from-[#1e3a5f] to-[#0f766e] py-20 relative overflow-hidden">
         <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)', backgroundSize: '60px 60px' }} />
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+          <div className="flex justify-start mb-6"><BackButton /></div>
           <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}
             className="text-4xl md:text-5xl font-heading font-extrabold text-white mb-4">
             Privacy Policy

@@ -4,27 +4,27 @@ import { ChevronLeft, ChevronRight, Star, Quote } from 'lucide-react';
 
 const testimonials = [
   {
-    name: 'Michael R.',
+    name: 'Rahul Sharma',
     type: 'Play Tonight User',
-    text: 'Play Tonight dramatically improved my stamina and confidence. The natural Ayurvedic formulation gives me peace of mind, and the results have been genuinely impressive.',
+    text: 'Play Tonight ne meri stamina aur confidence mein kaafi sudhaar kiya. Natural herbal formulation se mujhe peace of mind milta hai, aur results genuinely impressive hain.',
     rating: 5,
-    initials: 'MR',
+    initials: 'RS',
     color: 'from-blue-500 to-teal-500'
   },
   {
-    name: 'Sarah L.',
+    name: 'Priya Verma',
     type: 'Améora User',
-    text: 'Améora has helped me regain my feminine confidence and improved comfort naturally. The product is elegant, soothing, and truly effective. I feel like myself again.',
+    text: 'Améora ne mujhe apna feminine confidence wapas dilaya aur comfort naturally improve hua. Product elegant, soothing aur truly effective hai. Main phir se khud jaisi feel karti hoon.',
     rating: 5,
-    initials: 'SL',
+    initials: 'PV',
     color: 'from-rose-400 to-pink-500'
   },
   {
-    name: 'David & Emily',
+    name: 'Arjun & Neha',
     type: 'Couple',
-    text: 'Both Play Tonight and Améora have been wonderful additions to our wellness routine. They improved our connection and overall satisfaction in a very meaningful way.',
+    text: 'Play Tonight aur Améora dono hamare wellness routine mein wonderful additions hain. Inhone hamare connection aur overall satisfaction ko bahut meaningful tarike se improve kiya.',
     rating: 5,
-    initials: 'DE',
+    initials: 'AN',
     color: 'from-purple-500 to-rose-400'
   }
 ];
@@ -41,7 +41,7 @@ export default function TestimonialSlider() {
   const next = () => setCurrent(p => (p + 1) % testimonials.length);
 
   return (
-    <section className="py-24 bg-gradient-to-b from-[#FAFAFA] to-white overflow-hidden">
+    <section className="py-24 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Headline block */}

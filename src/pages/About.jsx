@@ -20,7 +20,7 @@ export default function About() {
           </motion.h1>
           <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }}
             className="text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
-            Zeen Mediconnect is your trusted partner for premium Ayurvedic wellness products and world-class healthcare solutions.
+            Zeen Mediconnect is your trusted partner for premium Herbal wellness products and world-class healthcare solutions.
           </motion.p>
         </div>
       </section>
@@ -35,15 +35,15 @@ export default function About() {
                 A Brand Built on Confidence & Natural Wellness
               </h2>
               <p className="text-gray-600 leading-relaxed text-lg mb-6">
-                At Zeen Mediconnect, we believe that confidence and well-being are fundamental to a fulfilling life. We create premium Ayurvedic wellness products — Play Tonight and Améora — crafted with the finest natural ingredients to support vitality, intimacy, and self-assurance for both men and women.
+                At Zeen Mediconnect, we believe that confidence and well-being are fundamental to a fulfilling life. We create premium Herbal wellness products — Play Tonight and Améora — crafted with the finest natural ingredients to support vitality, intimacy, and self-assurance for both men and women.
               </p>
               <p className="text-gray-600 leading-relaxed text-lg">
-                Our products are rooted in centuries-old Ayurvedic wisdom, modernized with scientific formulation to deliver safe, effective, and elegant wellness solutions.
+                Our products are rooted in centuries-old Herbal wisdom, modernized with scientific formulation to deliver safe, effective, and elegant wellness solutions.
               </p>
             </motion.div>
             <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}
               className="rounded-3xl overflow-hidden shadow-2xl h-[420px]">
-              <img src="/photo-1516841273335-e39b37888115.avif" alt="Wellness" className="w-full h-full object-cover" />
+              <img src="/mix productsc.png" alt="Wellness" className="w-full h-full object-cover" />
             </motion.div>
           </div>
         </div>
@@ -57,8 +57,8 @@ export default function About() {
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-50 text-blue-700 text-sm font-medium mb-4 border border-blue-100">
               For Men
             </div>
-            <h2 className="text-3xl md:text-4xl font-heading font-bold text-[#0A2540] mb-4">Play Tonight — Men's Ayurvedic Wellness</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto text-lg">A premium Ayurvedic formulation designed to support stamina, vitality, endurance, and confidence for men's wellness.</p>
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-[#0A2540] mb-4">Play Tonight — Men's Herbal Wellness</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto text-lg">A premium Herbal formulation designed to support stamina, vitality, endurance, and confidence for men's wellness.</p>
           </motion.div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -96,7 +96,7 @@ export default function About() {
                   ))}
                 </div>
               </div>
-              <a href="https://pu.playtonight.fun/com/checkout/?id=1029&clickid=clickid" target="_blank" rel="noopener noreferrer">
+              <a href="https://playtonight.fun/" target="_blank" rel="noopener noreferrer">
                 <motion.button whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}
                   className="inline-flex items-center gap-2 px-8 py-4 bg-[#0A2540] text-white rounded-full font-bold shadow-lg hover:bg-[#1e3a5f] transition-all">
                   Buy Play Tonight <ArrowRight size={18} />
@@ -147,7 +147,7 @@ export default function About() {
                   ))}
                 </div>
               </div>
-              <a href="https://pu.playtonight.fun/com/checkout/?id=1029&clickid=clickid" target="_blank" rel="noopener noreferrer">
+              <a href="https://ameora.fun/" target="_blank" rel="noopener noreferrer">
                 <motion.button whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}
                   className="inline-flex items-center gap-2 px-8 py-4 bg-rose-600 text-white rounded-full font-bold shadow-lg hover:bg-rose-700 transition-all">
                   Buy Améora <ArrowRight size={18} />
@@ -176,7 +176,7 @@ export default function About() {
               </div>
               <h3 className="text-2xl font-bold font-heading text-[#0A2540] mb-4">Our Mission</h3>
               <p className="text-gray-700 leading-relaxed">
-                To empower individuals with premium Ayurvedic wellness solutions that restore confidence, vitality, and well-being — naturally and safely.
+                To empower individuals with premium Herbal wellness solutions that restore confidence, vitality, and well-being — naturally and safely.
               </p>
             </motion.div>
             <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.1 }}
@@ -186,26 +186,26 @@ export default function About() {
               </div>
               <h3 className="text-2xl font-bold font-heading text-[#0A2540] mb-4">Our Vision</h3>
               <p className="text-gray-700 leading-relaxed">
-                To be India's most trusted Ayurvedic wellness brand — where ancient herbal wisdom meets modern science to transform lives with confidence and care.
+                To be India's most trusted Herbal wellness brand — where ancient herbal wisdom meets modern science to transform lives with confidence and care.
               </p>
             </motion.div>
           </div>
 
           {/* 10% Medical — compact single section */}
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
-            className="bg-[#1e3a5f] rounded-3xl p-8 md:p-12 text-white">
+            className="bg-gradient-to-r from-[#2a5a8f] to-[#0f766e] rounded-3xl p-8 md:p-12 text-white">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               <div>
                 <div className="inline-block px-3 py-1 rounded-full bg-white/10 text-teal-200 text-xs font-bold uppercase tracking-wider mb-4">Healthcare Services</div>
                 <h3 className="text-2xl md:text-3xl font-heading font-bold mb-4">Global Medical Tourism & Healthcare</h3>
-                <p className="text-blue-200 leading-relaxed text-sm">
+                <p className="text-white leading-relaxed text-sm">
                   Beyond wellness products, Zeen Mediconnect also connects patients with world-class hospitals and medical specialists across India for affordable, high-quality treatments.
                 </p>
               </div>
               <div className="grid grid-cols-2 gap-3">
                 {['Partner Hospitals', 'Medical Tourism', 'Treatment Support', 'Patient Assistance'].map((item, i) => (
-                  <div key={i} className="bg-white/10 rounded-xl p-3 border border-white/10 text-center">
-                    <span className="text-white/90 text-sm font-medium">{item}</span>
+                  <div key={i} className="bg-white/20 rounded-xl p-3 border border-white/30 text-center">
+                    <span className="text-white text-sm font-medium">{item}</span>
                   </div>
                 ))}
               </div>
@@ -223,17 +223,11 @@ export default function About() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-gradient-to-r from-rose-600 to-pink-600 text-center px-4">
+      <section className="py-20 bg-gradient-to-r from-[#1e3a5f] to-[#0f766e] text-center px-4">
         <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
           <h2 className="text-3xl font-heading font-bold text-white mb-4">Experience the Zeen Mediconnect Difference</h2>
-          <p className="text-rose-100 mb-8 max-w-xl mx-auto">Discover our premium Ayurvedic wellness products and start your journey to confidence today.</p>
+          <p className="text-blue-100 mb-8 max-w-xl mx-auto">Discover our premium Herbal wellness products and start your journey to confidence today.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="https://pu.playtonight.fun/com/checkout/?id=1029&clickid=clickid" target="_blank" rel="noopener noreferrer">
-              <motion.button whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}
-                className="px-8 py-4 bg-white text-rose-600 rounded-full font-bold shadow-lg hover:shadow-white/20 transition-all">
-                Buy Now
-              </motion.button>
-            </a>
             <Link to="/contact">
               <motion.button whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}
                 className="inline-flex items-center gap-2 px-8 py-4 border-2 border-white text-white rounded-full font-bold hover:bg-white/10 transition-all">

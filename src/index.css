@@ -5,11 +5,15 @@
   --color-med-blue: #0A2540;
   --color-med-teal: #0f766e;
   --color-med-light-blue: #E0F2FE;
-  --color-wellness-pink: #FDF2F8;
+  --color-wellness-pink: #FDE8F0;
   --color-wellness-rose: #fb7185;
   --color-wellness-sand: #FDFBF7;
   --color-wellness-gold: #D4AF37;
   --font-heading: 'Outfit', system-ui, sans-serif;
+}
+
+:root {
+  --primary-pink: #FDE8F0;
 }
 
 html {
@@ -18,7 +22,7 @@ html {
 
 body {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
-  background-color: #FAFAFA;
+  background-color: var(--primary-pink);
   color: #1F2937;
   margin: 0;
   padding: 0;

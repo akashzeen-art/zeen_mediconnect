@@ -8,7 +8,7 @@ import StatsSection from '../components/home/StatsSection';
 
 export default function Home() {
   return (
-    <div className="w-full">
+    <div className="w-full" style={{ backgroundColor: '#FDE8F0' }}>
       <HeroSection />
       <ProductTransition />
       <ProductOverview />

@@ -43,7 +43,7 @@ export default function ContactPreview() {
                 Ready to Start Your Health Journey?
               </h2>
               <p className="text-gray-600 mb-8 text-lg leading-relaxed">
-                Whether you're looking for world-class medical treatments, seeking premium Ayurvedic wellness, or inquiring about our global supply chain, our dedicated team is here to assist you 24/7.
+                Whether you're looking for world-class medical treatments, seeking premium Herbal wellness, or inquiring about our global supply chain, our dedicated team is here to assist you 24/7.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4">
