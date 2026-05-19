@@ -11,15 +11,15 @@ export default function AboutPreview() {
   ];
 
   return (
-    <section className="py-24 bg-[#FAFAFA] border-y border-gray-100">
+    <section className="py-24 bg-[#FAFAFA] border-y border-gray-100 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           
           <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, x: -40 }}
+            whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
+            transition={{ duration: 0.7, ease: 'easeOut' }}
           >
             <div className="inline-block px-4 py-1.5 rounded-full bg-[#E0F2FE] text-[#0A2540] font-medium text-sm mb-6">
               About Zeen Mediconnect
@@ -33,12 +33,20 @@ export default function AboutPreview() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-10">
               {highlights.map((h, i) => (
-                <div key={i} className="flex gap-4 p-4 rounded-xl bg-white border border-gray-100 shadow-sm">
-                  <div className="text-[#0f766e] shrink-0">
+                <motion.div key={i}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: i * 0.1, duration: 0.5 }}
+                  whileHover={{ y: -4, boxShadow: '0 8px 24px rgba(0,0,0,0.08)' }}
+                  className="flex gap-4 p-4 rounded-xl bg-white border border-gray-100 shadow-sm transition-all">
+                  <motion.div className="text-[#0f766e] shrink-0"
+                    animate={{ scale: [1, 1.15, 1] }}
+                    transition={{ duration: 2.5, repeat: Infinity, delay: i * 0.4 }}>
                     <h.icon size={24} />
-                  </div>
+                  </motion.div>
                   <p className="text-sm font-medium text-gray-700 leading-snug">{h.text}</p>
-                </div>
+                </motion.div>
               ))}
             </div>
 
@@ -49,28 +57,43 @@ export default function AboutPreview() {
           </motion.div>
 
           <motion.div 
-            initial={{ opacity: 0, x: 30 }}
+            initial={{ opacity: 0, x: 40 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.8, delay: 0.2 }}
+            transition={{ duration: 0.7, delay: 0.2, ease: 'easeOut' }}
             className="relative"
           >
-            {/* Visual composition layout */}
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-4 pt-12">
-                <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=600" alt="Medical team" className="rounded-2xl shadow-lg w-full h-48 object-cover" />
+                <motion.img
+                  whileHover={{ scale: 1.03 }}
+                  transition={{ duration: 0.3 }}
+                  src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=600" alt="Medical team" className="rounded-2xl shadow-lg w-full h-48 object-cover" />
               </div>
               <div className="space-y-4">
-                <img src="https://images.unsplash.com/photo-1631549916768-4119b2e5f926?auto=format&fit=crop&q=80&w=600" alt="Global care" className="rounded-2xl shadow-lg w-full h-64 object-cover" />
-                <div className="bg-[#0A2540] rounded-2xl p-6 shadow-lg text-white h-48 flex flex-col justify-center relative overflow-hidden">
+                <motion.img
+                  whileHover={{ scale: 1.03 }}
+                  transition={{ duration: 0.3 }}
+                  src="https://images.unsplash.com/photo-1631549916768-4119b2e5f926?auto=format&fit=crop&q=80&w=600" alt="Global care" className="rounded-2xl shadow-lg w-full h-64 object-cover" />
+                <motion.div
+                  whileHover={{ scale: 1.02 }}
+                  className="bg-[#0A2540] rounded-2xl p-6 shadow-lg text-white h-48 flex flex-col justify-center relative overflow-hidden">
                   <div className="relative z-10">
-                    <div className="text-3xl font-bold mb-2">35+</div>
+                    <motion.div
+                      initial={{ opacity: 0, scale: 0.5 }}
+                      whileInView={{ opacity: 1, scale: 1 }}
+                      viewport={{ once: true }}
+                      transition={{ type: 'spring', stiffness: 200, delay: 0.4 }}
+                      className="text-3xl font-bold mb-2">35+</motion.div>
                     <div className="text-sm text-blue-200">Years of Trusted Healthcare Expertise</div>
                   </div>
-                  <div className="absolute -right-4 -bottom-4 text-[#1E3A8A] opacity-50">
+                  <motion.div
+                    animate={{ rotate: [0, 10, 0] }}
+                    transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut' }}
+                    className="absolute -right-4 -bottom-4 text-[#1E3A8A] opacity-50">
                     <Stethoscope size={100} />
-                  </div>
-                </div>
+                  </motion.div>
+                </motion.div>
               </div>
             </div>
           </motion.div>

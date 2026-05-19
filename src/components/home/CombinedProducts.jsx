@@ -39,7 +39,7 @@ function BuyNowDropdown({ className = '' }) {
               </div>
               <ArrowRight size={14} className="ml-auto text-gray-300 group-hover:text-rose-500 transition-colors" />
             </a>
-            <a href="https://ameora.fun/" target="_blank" rel="noopener noreferrer"
+            <a href="https://ameora.fun/checkout?id=1035&clickid=0000e07e84d4-23d8-424f-83bc-e03a6f72eef4" target="_blank" rel="noopener noreferrer"
               className="flex items-center gap-3 px-5 py-4 hover:bg-rose-50 transition-colors group">
               <div className="w-8 h-8 rounded-full bg-rose-100 flex items-center justify-center text-rose-600 font-bold text-xs shrink-0">AM</div>
               <div>

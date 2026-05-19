@@ -2,18 +2,20 @@
 @import "tailwindcss";
 
 @theme {
-  --color-med-blue: #0A2540;
-  --color-med-teal: #0f766e;
-  --color-med-light-blue: #E0F2FE;
-  --color-wellness-pink: #FDE8F0;
-  --color-wellness-rose: #fb7185;
-  --color-wellness-sand: #FDFBF7;
-  --color-wellness-gold: #D4AF37;
+  --color-brand-black: #0D0D0D;
+  --color-brand-gold: #C9A84C;
+  --color-brand-gold-light: #E8C97A;
+  --color-brand-brown: #6B3F1F;
+  --color-brand-brown-light: #A0522D;
+  --color-brand-cream: #FDF6E3;
   --font-heading: 'Outfit', system-ui, sans-serif;
 }
 
 :root {
-  --primary-pink: #FDE8F0;
+  --primary-gold: #C9A84C;
+  --primary-black: #0D0D0D;
+  --primary-brown: #6B3F1F;
+  --primary-cream: #FDF6E3;
 }
 
 html {
@@ -22,8 +24,8 @@ html {
 
 body {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
-  background-color: var(--primary-pink);
-  color: #1F2937;
+  background-color: #0D0D0D;
+  color: #FDF6E3;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -31,7 +33,6 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Outfit', system-ui, sans-serif;
-  color: #111827;
   font-weight: 600;
 }
 
@@ -40,16 +41,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .glass-panel {
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(201, 168, 76, 0.1);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(201, 168, 76, 0.3);
 }
 
 .glass-nav {
-  background: rgba(255, 255, 255, 0.92);
+  background: rgba(13, 13, 13, 0.95);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border-bottom: 1px solid rgba(229, 231, 235, 0.5);
+  border-bottom: 1px solid rgba(201, 168, 76, 0.2);
 }

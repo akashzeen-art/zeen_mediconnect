@@ -2,8 +2,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
 import MainLayout from './layouts/MainLayout';
 import Home from './pages/Home';
-import PartnerHospitals from './pages/services/PartnerHospitals';
-import Treatment from './pages/services/Treatment';
 import PlayTonight from './pages/products/PlayTonight';
 import Ameora from './pages/products/Ameora';
 import About from './pages/About';
@@ -20,8 +18,6 @@ function App() {
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route index element={<Home />} />
-          <Route path="services/partner-hospitals" element={<PartnerHospitals />} />
-          <Route path="services/treatment" element={<Treatment />} />
           <Route path="products/play-tonight" element={<PlayTonight />} />
           <Route path="products/ameora" element={<Ameora />} />
           <Route path="about" element={<About />} />

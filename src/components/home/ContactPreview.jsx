@@ -66,17 +66,26 @@ export default function ContactPreview() {
               className="grid grid-cols-1 sm:grid-cols-2 gap-6"
             >
               {contactInfo.map((info, idx) => (
-                <div key={idx} className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex flex-col items-start hover:shadow-md transition-shadow">
-                  <div className="w-10 h-10 rounded-full bg-teal-50 flex items-center justify-center text-[#0f766e] mb-4">
+                <motion.div key={idx}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: idx * 0.1 + 0.3 }}
+                  whileHover={{ y: -4, boxShadow: '0 12px 28px rgba(0,0,0,0.08)' }}
+                  className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex flex-col items-start transition-all">
+                  <motion.div
+                    animate={{ scale: [1, 1.2, 1] }}
+                    transition={{ duration: 2, repeat: Infinity, delay: idx * 0.5 }}
+                    className="w-10 h-10 rounded-full bg-teal-50 flex items-center justify-center text-[#0f766e] mb-4">
                     <info.icon size={20} />
-                  </div>
+                  </motion.div>
                   <h4 className="font-heading font-bold text-[#0A2540] mb-2">{info.title}</h4>
                   <div className="text-sm text-gray-500 leading-relaxed font-medium">
                     {info.details.map((detail, i) => (
                       <div key={i}>{detail}</div>
                     ))}
                   </div>
-                </div>
+                </motion.div>
               ))}
             </motion.div>
 

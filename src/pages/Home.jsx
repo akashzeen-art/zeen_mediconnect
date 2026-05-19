@@ -1,18 +1,18 @@
 import React from 'react';
 import HeroSection from '../components/home/HeroSection';
-import ProductTransition from '../components/home/ProductTransition';
-import ProductOverview from '../components/home/ProductOverview';
-import CombinedProducts from '../components/home/CombinedProducts';
+import NutraZeenSection from '../components/home/NutraZeenSection';
+import PlayTonightSection from '../components/home/PlayTonightSection';
+import AmeoraSection from '../components/home/AmeoraSection';
 import TestimonialSlider from '../components/home/TestimonialSlider';
 import StatsSection from '../components/home/StatsSection';
 
 export default function Home() {
   return (
-    <div className="w-full" style={{ backgroundColor: '#FDE8F0' }}>
+    <div className="w-full bg-white">
       <HeroSection />
-      <ProductTransition />
-      <ProductOverview />
-      <CombinedProducts />
+      <NutraZeenSection />
+      <PlayTonightSection />
+      <AmeoraSection />
       <TestimonialSlider />
       <StatsSection />
     </div>

@@ -15,6 +15,13 @@ window.addEventListener('beforeunload', () => {
   window.scrollTo(0, 0);
 });
 
+// When user comes back from external order page, redirect to home
+window.addEventListener('pageshow', (e) => {
+  if (e.persisted) {
+    window.location.href = '/';
+  }
+});
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />

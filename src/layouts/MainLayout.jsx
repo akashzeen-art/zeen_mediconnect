@@ -2,6 +2,7 @@ import { Outlet } from 'react-router-dom';
 import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
 import FloatingCallButton from '../components/ui/FloatingCallButton';
+import FloatingBuyButton from '../components/ui/FloatingBuyButton';
 
 export default function MainLayout() {
   return (
@@ -12,6 +13,7 @@ export default function MainLayout() {
       </main>
       <Footer />
       <FloatingCallButton />
+      <FloatingBuyButton />
     </div>
   );
 }
