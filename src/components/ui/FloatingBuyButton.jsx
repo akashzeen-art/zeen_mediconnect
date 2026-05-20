@@ -80,13 +80,14 @@ export default function FloatingBuyButton() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 2 }}
             className="absolute right-full mr-2 top-1/2 -translate-y-1/2 whitespace-nowrap">
-            <motion.span
+            <motion.button
+              onClick={() => setOpen(true)}
               animate={{ opacity: [1, 0.4, 1], scale: [1, 1.05, 1] }}
               transition={{ duration: 1.2, repeat: Infinity }}
               className="inline-flex items-center gap-1 bg-gradient-to-r from-[#DC2626] to-[#EF4444] text-white text-sm font-extrabold px-4 py-2 rounded-full shadow-lg"
               style={{ boxShadow: '0 0 12px rgba(220,38,38,0.6)' }}>
               🔥 Buy Now
-            </motion.span>
+            </motion.button>
           </motion.div>
         )}
       </div>
