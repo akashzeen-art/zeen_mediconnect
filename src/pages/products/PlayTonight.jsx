@@ -70,7 +70,7 @@ export default function PlayTonight() {
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-heading font-extrabold mb-5 leading-tight">
               <span className="text-[#FDF6E3]">Play Tonight</span><br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#C9A84C] to-[#E8C97A]">
-                Performer Wellness Capsules
+                Performer Wellness tablets
               </span>
             </h1>
             <p className="text-base sm:text-xl text-[#FDF6E3]/60 mb-6 max-w-lg leading-relaxed">

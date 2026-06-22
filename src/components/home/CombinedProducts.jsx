@@ -114,7 +114,7 @@ export default function CombinedProducts() {
         <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
           className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
           {[
-            'For Men: Play Tonight Capsules — support stamina, vitality, and performance',
+            'For Men: Play Tonight tablets — support stamina, vitality, and performance',
             'For Women: Améora Gel — support firmness, confidence, and feminine well-being',
             'Together, they support a more confident and satisfying wellness journey'
           ].map((text, i) => (

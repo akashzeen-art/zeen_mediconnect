@@ -42,7 +42,7 @@ export default function PlayTonightSection() {
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-extrabold text-[#FDF6E3] mb-3">
             Play <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#C9A84C] to-[#E8C97A]">Tonight</span>
           </h2>
-          <p className="text-[#FDF6E3]/40 text-sm sm:text-base max-w-md mx-auto">Premium Herbal Performer Capsules</p>
+          <p className="text-[#FDF6E3]/40 text-sm sm:text-base max-w-md mx-auto">Premium Herbal Performer tablets</p>
         </motion.div>
 
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 items-start">

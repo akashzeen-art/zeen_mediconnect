@@ -53,7 +53,7 @@ export default function NutraZeenSection() {
               <div>
                 <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#C9A84C]/15 border border-[#C9A84C]/30 text-[#C9A84C] text-xs font-bold uppercase tracking-widest mb-5 group-hover:bg-[#C9A84C]/25 transition-colors">✦ For Men</div>
                 <h3 className="text-3xl sm:text-4xl font-heading font-extrabold text-[#FDF6E3] mb-3 leading-tight group-hover:text-[#E8C97A] transition-colors duration-300">Play<br />Tonight</h3>
-                <p className="text-[#FDF6E3]/50 text-sm leading-relaxed mb-5 max-w-xs">Premium herbal capsules to support stamina, vitality, endurance, and confidence.</p>
+                <p className="text-[#FDF6E3]/50 text-sm leading-relaxed mb-5 max-w-xs">Premium herbal tablets to support stamina, vitality, endurance, and confidence.</p>
                 <div className="flex flex-wrap gap-2 mb-6">
                   {['Maca Root', 'Panax Ginseng', 'Ashwagandha', 'Tribulus'].map((ing, i) => (
                     <span key={i} className="px-2.5 py-1 bg-[#C9A84C]/10 border border-[#C9A84C]/15 text-[#C9A84C]/70 text-xs rounded-full hover:bg-[#C9A84C]/20 hover:text-[#C9A84C] transition-all cursor-default">{ing}</span>

@@ -27,10 +27,10 @@ export default function ProductOverview() {
                   Men's Wellness
                 </div>
                 <h2 className="text-3xl md:text-4xl font-heading font-extrabold text-white drop-shadow-lg mb-4 leading-tight">
-                  2 Capsules at a Time for Maximum Performance
+                  2 tablets at a Time for Maximum Performance
                 </h2>
                 <p className="text-blue-200 leading-relaxed mb-6">
-                  Play Tonight capsules are crafted to support stamina, vitality, and confidence — helping men enjoy a more empowered wellness experience.
+                  Play Tonight tablets are crafted to support stamina, vitality, and confidence — helping men enjoy a more empowered wellness experience.
                 </p>
                 {/* Price + Offer */}
                 <div className="flex items-center gap-3 mb-3">
@@ -42,7 +42,7 @@ export default function ProductOverview() {
                 </motion.div>
               </div>
               <div className="flex justify-center">
-                <img src="/Capsules.png" alt="Play Tonight Capsules" className="h-72 object-contain drop-shadow-2xl" />
+                <img src="/tablets.png" alt="Play Tonight tablets" className="h-72 object-contain drop-shadow-2xl" />
               </div>
             </div>
           </motion.div>
@@ -71,7 +71,7 @@ export default function ProductOverview() {
             {/* Center product image */}
             <motion.div {...fadeUp(0.2)} className="flex justify-center">
               <div className="relative">
-                <img src="/Capsules.png" alt="Play Tonight" className="relative w-64 h-64 object-contain drop-shadow-2xl" />
+                <img src="/tablets.png" alt="Play Tonight" className="relative w-64 h-64 object-contain drop-shadow-2xl" />
               </div>
             </motion.div>
 
@@ -163,7 +163,7 @@ export default function ProductOverview() {
                 </motion.div>
               </div>
               <div className="flex justify-center">
-                <img src="/WomenCapsules.png" alt="Ameora" className="h-72 object-contain drop-shadow-2xl" />
+                <img src="/Womentablets.png" alt="Ameora" className="h-72 object-contain drop-shadow-2xl" />
               </div>
             </div>
           </motion.div>
@@ -190,7 +190,7 @@ export default function ProductOverview() {
 
             <motion.div {...fadeUp(0.2)} className="flex justify-center">
               <div className="relative">
-                <img src="/WomenCapsules.png" alt="Ameora" className="relative w-64 h-64 object-contain drop-shadow-2xl" />
+                <img src="/Womentablets.png" alt="Ameora" className="relative w-64 h-64 object-contain drop-shadow-2xl" />
               </div>
             </motion.div>
 
