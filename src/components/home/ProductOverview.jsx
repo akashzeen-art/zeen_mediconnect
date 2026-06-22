@@ -42,7 +42,7 @@ export default function ProductOverview() {
                 </motion.div>
               </div>
               <div className="flex justify-center">
-                <img src="/tablets.png" alt="Play Tonight tablets" className="h-72 object-contain drop-shadow-2xl" />
+                <img src="/capsules.png" alt="Play Tonight tablets" className="h-72 object-contain drop-shadow-2xl" />
               </div>
             </div>
           </motion.div>
@@ -71,7 +71,7 @@ export default function ProductOverview() {
             {/* Center product image */}
             <motion.div {...fadeUp(0.2)} className="flex justify-center">
               <div className="relative">
-                <img src="/tablets.png" alt="Play Tonight" className="relative w-64 h-64 object-contain drop-shadow-2xl" />
+                <img src="/capsules.png" alt="Play Tonight" className="relative w-64 h-64 object-contain drop-shadow-2xl" />
               </div>
             </motion.div>
 
@@ -163,7 +163,7 @@ export default function ProductOverview() {
                 </motion.div>
               </div>
               <div className="flex justify-center">
-                <img src="/Womentablets.png" alt="Ameora" className="h-72 object-contain drop-shadow-2xl" />
+                <img src="/Womencapsules.png" alt="Ameora" className="h-72 object-contain drop-shadow-2xl" />
               </div>
             </div>
           </motion.div>
@@ -190,7 +190,7 @@ export default function ProductOverview() {
 
             <motion.div {...fadeUp(0.2)} className="flex justify-center">
               <div className="relative">
-                <img src="/Womentablets.png" alt="Ameora" className="relative w-64 h-64 object-contain drop-shadow-2xl" />
+                <img src="/Womencapsules.png" alt="Ameora" className="relative w-64 h-64 object-contain drop-shadow-2xl" />
               </div>
             </motion.div>
 
